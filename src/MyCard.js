@@ -8,6 +8,13 @@ const MyCard = ({details}) =>{
         <div>
         <Card>
             <CardBody className="text-center">
+            <CardBody className="text-center">
+                <img
+                height="150"
+                width="150" 
+                 className="rounded-circle img-thumbnail border-danger " 
+                src={ details.picture?.medium} 
+                />
                 
                 {details.gender}
                     <CardTitle className="text-primary">
